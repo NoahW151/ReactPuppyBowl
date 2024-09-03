@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  border: 2px solid black;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+
+.card img {
+  height: 15vh;
+  width: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.showcase {
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase img {
+  height: 40vh;
+  width: auto;
+}
+
+.searchArea button {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.creationForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.creationForm button {
+  width: 25%;
+}
